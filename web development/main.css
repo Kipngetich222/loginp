@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    -ms-wrap-margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#box{
+    height:400px;
+    width: 350px;
+    border-radius: 5px ;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#login{
+    top: 30px;
+    align-items:  center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+#form{
+    top: 120px;
+    position: relative;
+       
+
+}
+#em{
+    margin-bottom: 50px;
+    
+}
+.label{
+margin-left: 50px;
+}
+#submit{
+    margin-left: 140px;        
+    margin-top: 80px;
+    cursor: pointer;
+}
