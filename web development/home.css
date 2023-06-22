@@ -1,0 +1,127 @@
+body{
+    
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-image:url("./4.jpg");
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+.top{
+ text-decoration:none;
+ color: yellow;
+}
+    
+}    
+#extra2{
+    top: 0px;
+    left: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;   
+    
+    align-items: center;
+    color: white;
+    position: relative;
+    height: 05vh;
+    width: 30vw;
+  
+}
+#intro{
+    color: aqua;
+position: relative;
+left: 20px;
+top: 70px;
+height: 10vh;
+width: 25vw;
+border-radius: 5px;
+
+border-color: red;
+
+}
+#additional{
+    
+    position: relative;
+    height: 15vh;
+    width: 60vw;
+    
+    top: 100px;
+    left: 20px;
+}
+.name{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    color: white;
+    height: 08vh;
+    width: 15vw;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+.name:hover{
+color: red;
+margin:5px;
+padding: 5px;
+font-style: italic;
+}
+
+.top:hover{
+    background-color: red;
+    border-radius: 55%;
+    padding: 1px;
+    font-size: 15px;
+    height: 25px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+}
+.circle{
+    width: 200px;
+    height: 400px;
+    border-radius: 80%;
+    object-fit: cover;
+    -o-object-fit: fill;
+   
+}
+.photos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    left: 20vw;
+    align-items: center;
+    top: 25vh;
+
+   
+
+}
+.footer1{
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: white;
+    width: 40vw;
+}
+@media(max-width:600px){
+    .photos{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.dashed-line{
+    border-radius: 50px;
+    border-style: dotted;
+    border-color: yellow;
+}
